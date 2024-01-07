@@ -160,7 +160,7 @@ static void activate(GtkApplication *app, gpointer user_data)
     // Create a new window
     widget.window = gtk_application_window_new(app);
     gtk_window_set_position(GTK_WINDOW(widget.window), GTK_WIN_POS_CENTER);
-    gtk_window_set_title(GTK_WINDOW(widget.window), "Las Creations Calculator");
+    gtk_window_set_title(GTK_WINDOW(widget.window), "My Calculator");
     gtk_window_set_default_size(GTK_WINDOW(widget.window), 200, 200);
     gtk_container_set_border_width(GTK_CONTAINER(widget.window), 10);
 
